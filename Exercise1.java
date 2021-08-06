@@ -20,18 +20,10 @@ public class Exercise1 {
 		}
 		outFile.close();
 
-		
-		// printout values array- verification
-		for (int row = 0; row < values.length; row++) {
-			for (int col = 0; col < values[row].length; col++)
-				System.out.print(values[row][col] + ", ");
-			System.out.println();
-		}
-
 		System.out.println();
 
 		
-		// printout values from text file: "input.csv"
+		// printout values from text file: "input.csv"- verification that file contains desired array values
 		FileReader reader = new FileReader("input.csv"); // reads textfile and outputs to console
 		int character;
 		while ((character = reader.read()) != -1) {
