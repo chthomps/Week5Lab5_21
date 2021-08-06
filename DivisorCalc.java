@@ -19,14 +19,13 @@ public class DivisorCalc {
 		
 		Scanner scan = new Scanner(System.in);
 	
-		
 		num1= scan.nextInt();
 		num2= scan.nextInt();
 		
 		System.out.println("The greatest common divisor of your two numbers is: " +DivisorCalc.gcd(num1, num2)); //class name.method
 		
-		//note how this is different from how we established Figure (new Figure) objects in Program2  By making gcd a static method, we can invoke 
-		//using our class name (DivisorCalc) in the main method.
+		//note- This is different from how we established Figure (new Figure) objects in Program2.  
+		//By making gcd a static method, we can invoke using our class name (DivisorCalc) in the main method.
 		
 		scan.close();
 		
