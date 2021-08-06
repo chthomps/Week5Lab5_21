@@ -24,7 +24,7 @@ public class StringReversal {
 
 		if (phraseEntry.charAt(right) == phraseEntry.charAt(left))
 			return "" + phraseEntry.charAt(left);  //Eclipse indicated an error in this line of code.... clicking on the "fix", double quotes were added. 
-												   //Evidently double quotes specifies a String return.
+							       //Evidently double quotes specifies a String return.
 		else
 			return phraseEntry.charAt(right) + reverseString(phraseEntry.substring(left, right), left, right-1);
 		
