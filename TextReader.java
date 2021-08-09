@@ -10,6 +10,7 @@ public class TextReader { //Week5 LabExercise1,b
 		
 		String line = "";
 		String splitBy = ",";
+		int row = 1;
 		
 		try {
 			
